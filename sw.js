@@ -1,7 +1,7 @@
 // Офлайн-режим: сайт открывается без интернета, если хотя бы раз был открыт онлайн.
 // Стратегия «сначала сеть»: обновления видны сразу, кэш — только запасной вариант.
-const CACHE = 'bueno-english-v1';
-const CORE = ['./', './index.html', './css/style.css', './js/app.js', './data/lessons.js', './data/bonus.js',
+const CACHE = 'bueno-english-v2';
+const CORE = ['./', './index.html', './css/style.css', './js/gate.js', './js/app.js', './data/lessons.js', './data/bonus.js',
   './manifest.webmanifest', './icons/favicon.svg', './icons/icon-192.png', './icons/icon-512.png'];
 
 self.addEventListener('install', e => {
